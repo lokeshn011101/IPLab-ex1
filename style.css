@@ -4,9 +4,13 @@
 * {
   overflow-x: hidden;
 }
+html {
+  background-image: url("./bg.gif"), linear-gradient(rgba(0, 32, 48, 0.85), rgba(0, 33, 49, 0.85));
+  background-blend-mode: overlay;
+}
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #002131;
+  background: linear-gradient(#00213195);
   color: white;
 }
 a {
@@ -198,7 +202,7 @@ td:last-child {
   width: 2px;
   margin-left: 10px;
   margin-right: 20px;
-  background-color: rgba(255, 255, 255, 0.755);
+  background-color: rgba(255, 255, 255, 0.855);
 }
 .cards-container {
   width: 100%;
