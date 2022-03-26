@@ -95,59 +95,6 @@ a:hover {
 .name:hover {
   letter-spacing: 4px;
 }
-/* .name div div {
-  top: 0;
-  left: 0;
-  position: absolute;
-  animation: mname 1s 1;
-}
-.description div div {
-  top: 0;
-  left: 0;
-  position: absolute;
-  animation: mdesc 1s 1;
-  animation-delay: 0.2s;
-}
-.glink {
-  position: absolute;
-  animation: mlink 1s 1;
-  animation-delay: 0.4s;
-}
-
-@keyframes mname {
-  0% {
-    top: 0;
-    left: 100%;
-    color: rgba(255, 255, 255, 0.1);
-  }
-  100% {
-    top: 0;
-    left: 0;
-  }
-}
-@keyframes mlink {
-  0% {
-    top: 0;
-    left: 100%;
-    color: rgba(255, 255, 255, 0.1);
-  }
-  100% {
-    top: 0;
-    left: 0;
-  }
-}
-@keyframes mdesc {
-  0% {
-    top: 0;
-    left: 100%;
-    color: rgba(255, 255, 255, 0.1);
-  }
-  100% {
-    top: 0;
-    left: 0;
-  }
-}
-*/
 
 /* academics */
 .academic-container {
@@ -264,4 +211,30 @@ td:last-child {
   height: 3px;
   color: white;
   z-index: 100;
+}
+
+/* Interests */
+.interests-container {
+  width: 100%;
+  margin-top: 50px;
+}
+.domain {
+  margin: 0 auto;
+  width: 50%;
+}
+.domain-title {
+  font-size: 45px;
+  font-weight: 900;
+  transition: all 0.1s ease-in-out;
+}
+.domain-title:hover {
+  letter-spacing: 2px;
+  color: rgb(255, 68, 68);
+}
+.domain-list {
+  list-style: none;
+  font-size: 20px;
+}
+li {
+  padding: 5px 0;
 }
