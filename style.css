@@ -238,3 +238,22 @@ td:last-child {
 li {
   padding: 5px 0;
 }
+
+/* feedback */
+.feedback-container {
+  height: 80vh;
+  width: 100vw;
+}
+.feedback {
+  margin: 0 auto;
+  margin-top: 180px;
+  width: fit-content;
+}
+.txt {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+#fb {
+  height: 200px;
+  width: 800px;
+}
