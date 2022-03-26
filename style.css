@@ -161,6 +161,7 @@ table {
   margin: 0 auto;
   height: 60%;
   border-collapse: collapse;
+  background-color: rgba(0, 0, 0, 0.714);
 }
 th {
   padding: 30px 0;
